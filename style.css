@@ -1,3 +1,9 @@
+/* --------------------------------------------HOME-PAGE-------------------------------- */
+#home-page{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 /* -------------------------------------------Body styling-------------------------------------------------------------- */
 
 body{
@@ -8,43 +14,97 @@ body{
 /* -----------------------------------------Landing styling---------------------------------------------------------------------- */
 #landing-page{
     box-sizing: content-box;
-    background-color:rgb(176, 171, 179) ;
+    background-color: #f2f2f2;
+   
 }
 #landing-photo{
-    border: hidden;
     border-radius: 50%;
+    border-style: solid;
+    border: 6px;
+    border-color: white;
 }
 
-/* ---------------------------------------------navbar styles------------------------------------------------------------------ */
+/* ---------------------------------------------navbar styles--------------------------------------------------------------- */
  .navbar{
      position: fixed !important ;top: 0 !important;
      width: 100%;
      z-index: 48;
+    
 
  }
 
 .nav-link{
-    font-size: 25px;
+    font-size: 23px;
     
 }
 
 nav{
-    background-color: rgb(179, 133, 173);
+    background-color: rgb(160, 134, 156);
+    
 }
 .nav-text:hover{
-    color: rgb(236, 228, 228);
+    color: rgb(97, 25, 155);
+}
+/*------------------------------------------ Underlining-------- Headings---------------------------------------------------- */
+
+h1{
+    border-color: gray;
+    border-bottom: 3px;
+    border-width: 3px;
 }
 
-/* ---------------------------------------------about image----------------------------- */
+/* ------------------------------------------Testimonials CSS--------------------------------------------------------------- */
+.testimonials-image{
+    height: 300px;
+    width: 400px;
+    border-radius: 49%;
+    justify-content: center;
+}
+
+/*-------------------------------------------Portfolio CSS ---------------------------------------------------------------- */
+#portfolio-page{
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+
+
+
+
+
+#portfolio-image{
+    border-radius: 2%;
+    height: 450px;
+    width: 500px;
+  
+}
+
+/* -------------------------------------------About page CSS--------------------------------------------------------------------- */
+h1, #purple-myname{
+padding-top: 20px;
+}
+#about-page{
+padding-left: 50px;
+padding-right: 50px;
+}
+
+/* -----------------------------------------About image----------------------------- */
 #about-image{
     border-radius: 10%;
 }
 .card {
     border: none !important;
 }
-/* ----------------------------------------------timeline css------------------------------------------------------------------- */
 
+/* ------------------------------------------Timeline css------------------------------------------------------------------- */
 
+#timeline-page{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
 
 body{
     /* background-color: #f7f7f7; */
@@ -316,4 +376,42 @@ body{
     
 }
     
+/* }iframe-------------------------------- */
+iframe{
+  
+    border: 25 solid black;
+    box-sizing: border-box;
+    border-radius: 10%;
+  
+    
+}
+
+
+/* --------------------------------The Contact Form---------------- */
+
+* {
+    box-sizing: border-box;
+    margin-top: 0;
+}
+
+
+div {
+    display: block;
+}
+h1 {
+    color: rgb(241, 234, 234);
+    text-decoration: none;
+}
+h1 {
+    text-size-adjust: 50 px;
+    color: rgb(243, 239, 239);
+}
+user agent stylesheet
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
