@@ -61,6 +61,9 @@ h1{
     border-radius: 49%;
     justify-content: center;
 }
+.d-block{
+    
+}
 
 /*-------------------------------------------Portfolio CSS ---------------------------------------------------------------- */
 #portfolio-page{
@@ -530,29 +533,6 @@ body{
 }
 /* --------------------------------The Contact Form---------------- */
 
-/* * {
-    box-sizing: border-box;
-    margin-top: 0;
+#contact-page{
+    padding-right: 90px
 }
-
-
-div {
-    display: block;
-}
-h1 {
-    color: rgb(241, 234, 234);
-    text-decoration: none;
-}
-h1 {
-    text-size-adjust: 50 px;
-    color: rgb(243, 239, 239);
-}
-user agent stylesheet
-h1 {
-    font-size: 2em;
-    font-weight: bold;
-}
-body {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-} */
