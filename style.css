@@ -65,10 +65,17 @@ h1{
 /*-------------------------------------------Portfolio CSS ---------------------------------------------------------------- */
 #portfolio-page{
     
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 
 }
+#portfolio-row{
+    padding-top: 19px;
+    padding-bottom: 19px;
+
+
+}
+/* ---------------------- */
 
 
 
