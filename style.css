@@ -61,8 +61,9 @@ h1{
     border-radius: 49%;
     justify-content: center;
 }
-.d-block{
-    
+.rounded-circle{
+
+    object-fit: cover;
 }
 
 /*-------------------------------------------Portfolio CSS ---------------------------------------------------------------- */
