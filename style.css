@@ -55,6 +55,8 @@ h1{
 }
 
 /* ------------------------------------------Testimonials CSS--------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
 .testimonials-image{
     height: 300px;
     width: 400px;
@@ -86,12 +88,12 @@ h1{
 
 
 
-#portfolio-image{
+/* #portfolio-image{
     border-radius: 2%;
     height: 450px;
     width: 500px;
   
-}
+} */
 
 /* -------------------------------------------About page CSS--------------------------------------------------------------------- */
 h1, #purple-myname{
@@ -393,6 +395,7 @@ body{
 }
 body{
     overflow-x: hidden;
+    position: relative;
 }
     
 /* }iframe-------------------------------- */
@@ -401,7 +404,10 @@ iframe{
     border: 25 solid black;
     box-sizing: border-box;
     border-radius: 10%;
-  
+    height: 200px;
+    width: 200px;
+    float: left;
+    place-content:inherit;
     
 }
 
@@ -489,13 +495,12 @@ h1{
 
 
 
-
+/* 
 #portfolio-image{
     border-radius: 2%;
     height: 450px;
-    width: 500px;
   
-}
+} */
 
 /* -------------------------------------------About page CSS--------------------------------------------------------------------- */
 h1, #purple-myname{
@@ -531,9 +536,12 @@ body{
 
 
 
-}
+
 /* --------------------------------The Contact Form---------------- */
 
 #contact-page{
-    padding-right: 90px
+padding-right: 5px;
+i
+
+}
 }
