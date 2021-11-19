@@ -88,12 +88,6 @@ h1{
 
 
 
-/* #portfolio-image{
-    border-radius: 2%;
-    height: 450px;
-    width: 500px;
-  
-} */
 
 /* -------------------------------------------About page CSS--------------------------------------------------------------------- */
 h1, #purple-myname{
@@ -406,23 +400,25 @@ iframe{
     border-radius: 10%;
     height: 200px;
     width: 200px;
-    float: left;
+    float: right;
     place-content:inherit;
     
 }
 
 @media only screen and (max-width: 480px){
     /* --------------------------------------------HOME-PAGE-------------------------------- */ 
-#home-page{
-    /* padding-left: 30px;
-    padding-right: 30px; */
+.navbar-toggler{
+    position: fixed;
+    top:5px;
+    right:10px;
+}
 }
 
 /* -------------------------------------------Body styling-------------------------------------------------------------- */
 
 body{
     box-sizing: border-box;
-    background-color: grey;
+ 
     overflow-x: hidden;
 
 }
@@ -492,16 +488,6 @@ h1{
 }
 
 
-
-
-
-/* 
-#portfolio-image{
-    border-radius: 2%;
-    height: 450px;
-  
-} */
-
 /* -------------------------------------------About page CSS--------------------------------------------------------------------- */
 h1, #purple-myname{
 padding-top: 20px;
@@ -528,7 +514,7 @@ padding-right: 50px;
 }
 
 body{
-    /* background-color: #f7f7f7; */
+    
     margin-top:20px;
 }
 
@@ -541,7 +527,7 @@ body{
 
 #contact-page{
 padding-right: 5px;
-i
+
 
 }
 }

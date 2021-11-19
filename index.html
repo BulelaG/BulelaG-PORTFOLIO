@@ -4,14 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BG'Portfolio</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="LOGO.png" type="image/x-icon">
+
+    <title>BulelaG_Portfolio</title>
+    
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"
     />
+    
   </head>
+  <script>
+    function toggleMenu() {
+          document
+            .getElementsByClassName("navigation")[0]
+            .classList.toggle("active");
+        }
+  </script>
   <body>
     <section id="home-page">
     <!-- Navbar -->
@@ -96,12 +108,13 @@
           height="357"
         />
        <div >
-          <h1  id= purple-myname class="display-5 fw-bold">Bulela Gomoshe</h1><br>
+          <h1  id= purple-myname class="display-5 fw-bold"> <b> Bulela Gomoshe</h1></b><br>
         </div>
         <div class="col-lg-6 mx-auto">
           <h2 class=" text-muted text-size-10pxlead mb-4">
-            I am an aspirant <b>Fullstack Developer</b>.
-            <b> Web Development?</b>Lets connect!
+            I am an aspirant <b>Fullstack Developer</b>. 
+            <p>I offer <b>Web Development</b> services.</p> 
+            <p> Lets connect!</p>
           </h2>
           <div class="d-grid gap-2 d-flex justify-content-center">
             <button type="button" class="btn btn-muted btn-lg px-4 gap-3">
@@ -121,8 +134,9 @@
  <section style="padding-top: 100px;padding-bottom: 130px;" id="about-page">
 
   
-  <h1 class="text-center" style="padding-top: 20px; padding-bottom: 80px;" id= purple-myname >About Me</h1>
-    <div class="card-group">
+  <h1 class="text-center" style="padding-top: 20px; padding-bottom: 20px; border-bottom:solid 2px;" id= purple-myname >About Me</h1>
+  <div style="padding-top: 60px;">    </div>
+    <div  class="card-group"    >
       <div class="card border-radius-10px">
         <img id=about-image class="card-img-top" style="width: 400px;height: 500px;" src="B-MOVING.jpg" alt="Card image cap">
         <div class="card-body">
@@ -137,7 +151,6 @@
             
             <h5>Full name:</h5> Bulela Gomoshe
             <h5> Date of birth:</h5> 26/02/2000
-            <h5>Gender:</h5> Male
             <h5>  Location:</h5> Cape Town
             <h5> Cell Phone number:</h5> 0672169078
             <h5>Email Address:</h5> bulelagomoshe1@gmail.com
@@ -175,11 +188,11 @@
 
       <!-- MY SKILLS SECTION -->
 
-      <section style=" background-color: #f2f2f2;" >
+      <section  >
       <div id="myskills-cards display-flex">
 
 
-<h1 class="text-center" id= purple-myname >My Skills</h1>
+<h3 class="text-center" style="padding-top: 20px; padding-bottom: 20px; border-bottom:solid 2px ;"  id= purple-myname >Technical Skills</h3>
 <br><br>
 
   
@@ -216,12 +229,14 @@
        </div>
   </div>
 </div>
+</div>
+</section>
 
     <!--Timeline of Work/Education  Section-->
   
     
-    <section style="padding-top: 100px;" id=timeline-page >
-    <h1 class="py-4 text-center" style="padding-top: 5000px;" id= purple-myname >Experience</h1>
+    <section style=" padding-top: 100px;" id=timeline-page >
+    <h1 class="py-4 text-center" style="padding-top: 20px; padding-bottom: 20px; border-bottom:solid 2px;" id= purple-myname >Experience</h1>
     <div class="container">
       <div class="main-timeline">
       
@@ -394,7 +409,7 @@
      <!-- Portfolio section -->
 
      <section id="portfolio-page" style=" padding-right: 90px; padding-left: 90px;">
-      <h1 class=" text-center" id= purple-myname >My Work</h1>
+      <h1 class=" text-center" style="padding-top: 20px; padding-bottom: 20px; border-bottom:solid 2px;"  id= purple-myname >My Projects</h1>
      <div id="portfolio-row" class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col col-md-12 col-md-4 col-lg-4">
         <div class="card h-100">
@@ -441,16 +456,15 @@
         </div>
       </div>
     </div>
-
   </section>
 
-  <!-- TESTIMONIAL----------------------------------------------------------------------------------------------- -->
+  <!-- TESTIMONIAL------------------------------------------------------------------------------------------------------->
  
-<!-- ------------------------------------------------------------------------------------------------------------------ -->
+<!-- -------------------------------------------------------------------------------------------------------------------->
     <!-- Testimonials Section -->
     <section style="padding-top: 100px;" id="testimonials-page">
       <br>
-      <h1 id= purple-myname class="text-center">Testimonials</h1>
+      <h1 id= purple-myname style="padding-top: 20px; padding-bottom: 20px; border-bottom:solid 2px;" class="text-center">Testimonials</h1>
       <br><br>
 
       
@@ -461,8 +475,8 @@
           <h5  id= purple-myname >Godwin Dzvapatsva</h5>
           <h6 id= purple-myname>Head of Curriculum and Learning </h6>
 
-          <p>
-            I have no hesitancy in writing a letter of recommendation for Bulela. .</p><br>
+          <p>.<em></em>
+            I have no hesitancy in writing a letter of recommendation for Bulela. </em></p><br>
             <a style="color: rgb(59, 61, 179);" href="https://www.linkedin.com/in/bulelag/" target="_blank"><i class="bi bi-linkedin" style="font-size: 3em;padding-bottom: 400px;"></i></a>
 
         </div>
@@ -472,7 +486,7 @@
           <img class="rounded-circle" src="SEKO.jpeg" alt="Generic placeholder image" width="160" height="160">
           <h5  id= purple-myname >Nomvuyiseko Mpofu</h5>
           <h6 id= purple-myname>ComputerProgramming Student </h6>
-          <p> "Bulela is quite an intereresting person, he works well with people and he is one dedicated student."</p><br>
+          <p> <em>"Bulela is quite an intereresting person, he works well with people and he is one dedicated student." </em> </p><br>
           <div>
             <a style="color: rgb(59, 61, 179);" href="https://www.linkedin.com/in/bulelag/" target="_blank"><i class="bi bi-linkedin" style="font-size: 3em;padding-bottom: 400px;"></i></a>
           </div>
@@ -486,10 +500,10 @@
           <h5 id= purple-myname> Akha Kambora</h5>
           <h6 id= purple-myname>Coding Student </h6>
 
-          <p> "Bulela is a smart student with a bright future.
+          <p> <em>"Bulela is a smart student with a bright future.
               He always has a smile on his face and is a pleasure to work with.
               I look forward to seeing what he will achieve in the future and highly reccomend him
-            ."</p>
+            ."</em></p>
             <div>
               <a style="color: rgb(59, 61, 179);" href="https://www.linkedin.com/in/bulelag/" target="_blank"><i class="bi bi-linkedin" style="font-size: 3em;padding-bottom: 400px;"></i></a>
             </div>
@@ -502,7 +516,7 @@
           <h5 id= purple-myname> Xola Magatya</h5>
           <h6 id= purple-myname>Coding Student</h6>
 
-          <p>"Bulela is a hard working with peserverance, always eager to learn or work and he is quite friendly."</p><br>
+          <p><em>"Bulela is a hard working with peserverance, always eager to learn or work and he is quite friendly." </em> </p><br>
            <div>
              <a style="color: rgb(59, 61, 179);" href="https://www.linkedin.com/in/bulelag/" target="_blank"><i class="bi bi-linkedin" style="font-size: 3em;padding-bottom: 400px;"></i></a>
            </div>
@@ -515,7 +529,7 @@
         
           <h6 id= purple-myname>Computer Programming Student </h6>
 
-          <p>"As a fellow student, I think Bulela has a friendly and caring personality. He loves participating when he knows the answer. He is a hard working individual who always shows determination to learn and to help others."</p>
+          <p> <em> "As a fellow student, I think Bulela has a friendly and caring personality. He loves participating when he knows the answer. He is a hard working individual who always shows determination to learn and to help others."</em></p>
           <div>
           <a style="color: rgb(59, 61, 179);" href="https://www.linkedin.com/in/bulelag/" target="_blank"><i class="bi bi-linkedin" style="font-size: 3em;padding-bottom: 400px;"></i></a>
           
@@ -529,7 +543,7 @@
           <img class="rounded-circle" src="Ashley.jpeg" alt="Generic placeholder image" width="160" height="160">
           <h5 id= purple-myname> Ashley Kannemyer</h5>
           <h6 id= purple-myname>Coding Student </h6>
-          <p> "Bulela is a hard worker and a determined person in general. Additionally, he is a person who loves a challenge."</p><br>
+          <p> <em>"Bulela is a hard worker and a determined person in general. Additionally, he is a person who loves a challenge."</em></p><br>
           <div>
           <a style="color: rgb(59, 61, 179);" href="https://www.linkedin.com/in/bulelag/" target="_blank"><i class="bi bi-linkedin" style="font-size: 3em;padding-bottom: 400px;"></i></a>
           </div>
@@ -540,11 +554,12 @@
 
     <section style="padding-top:200px; justify-items:center ;" id=contact-page>
 
-    <h1 class="text-center" id= purple-myname >Get In Touch</h1>
+   <div > <h1 class="text-center"  id= purple-myname style="padding-top: 20px; padding-bottom: 20px; border-bottom:solid 2px;"   >Get In Touch</h1></div>
+
     <div style="justify-items:center ;" class="container ">
       <div  class="row">
-        <div class="col-lg-12" > 
-          <h3 class="text-muted">Contact Me Below</h3>
+        <div class="col-lg-6" > 
+          <h3 class="text-muted"  >Contact Me Below</h3>
       
           <form style="border-radius: 35%; width: 300px;" action="https://formspree.io/f/xpzknqyr" method="POST">
           
@@ -562,7 +577,7 @@
     </form><br>
           
         </div>
-        <div class="col-lg-12" >
+        <div class="col-lg-6" >
           <div style="padding-top:40px " >
             <iframe style="float: left; border-radius: 15%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.2934215261566!2d18.490473614807716!3d-33.9849962806242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bfcf832a1%3A0x3b4439b8cc517802!2s314%20Imam%20Haron%20Rd%2C%20Lansdowne%2C%20Cape%20Town%2C%207780!5e0!3m2!1sen!2sza!4v1633096149800!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
