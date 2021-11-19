@@ -15,8 +15,9 @@ body{
 /* -----------------------------------------Landing styling---------------------------------------------------------------------- */
 #landing-page{
     box-sizing: content-box;
-    background-color: #f2f2f2;
-   
+    background-color: #b9b9b9;
+    /* background-image: url(keyboard.jpg); */
+    object-fit: cover;   
 }
 #landing-photo{
     border-radius: 50%;
@@ -40,7 +41,7 @@ body{
 }
 
 nav{
-    background-color: rgb(160, 134, 156);
+    background-color: rgb(190, 190, 190);
     
 }
 .nav-text:hover{
@@ -55,6 +56,11 @@ h1{
 }
 
 /* ------------------------------------------Testimonials CSS--------------------------------------------------------------- */
+section{
+    box-sizing: border-box;
+}
+
+
 
 /* ----------------------------------------------------------------------------------------------------------------------- */
 .testimonials-image{
@@ -413,6 +419,7 @@ iframe{
     right:10px;
 }
 }
+
 
 /* -------------------------------------------Body styling-------------------------------------------------------------- */
 
