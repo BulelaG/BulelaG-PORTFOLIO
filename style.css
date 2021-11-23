@@ -15,7 +15,7 @@ body{
 /* -----------------------------------------Landing styling---------------------------------------------------------------------- */
 #landing-page{
     box-sizing: content-box;
-    background-color: #b9b9b9;
+    background-color: #ececec;
     /* background-image: url(keyboard.jpg); */
     object-fit: cover;   
 }
