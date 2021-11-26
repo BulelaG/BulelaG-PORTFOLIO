@@ -68,6 +68,9 @@ section{
     width: 400px;
     border-radius: 49%;
     justify-content: center;
+    padding-top: 80px;
+    padding-right: 90px;
+    padding-left: 90px;
 }
 .rounded-circle{
 
@@ -415,7 +418,7 @@ iframe{
     /* --------------------------------------------HOME-PAGE-------------------------------- */ 
 .navbar-toggler{
     position: fixed;
-    top:5px;
+    top:30px;
     right:10px;
 }
 }
@@ -515,9 +518,16 @@ padding-right: 50px;
 /* ------------------------------------------Timeline css------------------------------------------------------------------- */
 
 #timeline-page{
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
     padding-top: 20px;
+}
+#testimonials-page{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
 }
 
 body{
